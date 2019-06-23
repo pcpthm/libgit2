@@ -315,6 +315,8 @@ GIT_EXTERN(int) git_index_add_frombuffer(
  */
 GIT_EXTERN(size_t) git_object__size(git_object_t type);
 
+typedef git_object_size_t git_off_t;
+
 /**@}*/
 
 /** @name Deprecated Reference Constants
